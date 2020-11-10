@@ -19,7 +19,7 @@ class TestBus(unittest.TestCase):
 
     @unittest.skip("Delete this line to run the test")
     def test_can_drive(self):
-        self.assertEqual("Brum brum", self.bus.drive())
+        self.assertEqual("Brun burm... on to the next stop!", self.bus.drive())
 
     @unittest.skip("Delete this line to run the test")
     def test_starts_with_no_passengers(self):
